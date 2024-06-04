@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bg_gradiant"
+            android:layout_gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/than"
+                android:padding="5dp"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="thanfa" />
+
+
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/iv_post"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/than"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="1dp">
+
+        <ImageView
+            android:id="@+id/love"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/love"/>
+
+        <ImageView
+            android:id="@+id/comment"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/comment_icon" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/share_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@drawable/save_icon"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="lorem ugcisu siugd cygsbfei wch sic siugysc iusc disuhcisb isudubcyisc siucug"/>
+
+
+
+
+</LinearLayout>
